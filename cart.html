@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+<link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Krusty Krab</title>
+<link rel = "icon" type = "image/png" href = "img/logo1.jpg">
+
+</head>
+<!-- MADMIN CODE TO -->
+<body>
+    <div class="container">
+      <nav class="lime darken-2">
+      <div class="nav-wrapper">
+        <table class="right hide-on-med-and-down">
+          <ul class="active">
+            <li><a class='dropdown-button ' href='menu.html' data-activates='menu'>MENU</a>
+              <ul id='menu' class='dropdown-content'>
+                      <li>
+                        <a href="combo.html">Combos</a>
+                      </li>
+                      <li>
+                        <a href="drinks.html">Drinks</a>
+                      </li>
+                      <li>
+                        <a href="addons.html">Add-ons</a>
+                      </li>
+                    </ul>
+                </li>
+                <li><a href="signin.html">SIGN IN</a></li>
+                <li><a href="signup.html">SIGN UP</a></li>
+                <li><a href="Contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+      </div>
+      <!-- HANGGANG DITO -->
+<!-- UPPER RIGHT BUTTONS -->
+
+    <!-- LOGO NAVBAR -->
+
+          <div class="row">
+              <div class="col s12">
+                  <div class="navbar-fixed-centered">
+                      <nav class="blue darken-4" style="height:100px">
+                        <a href="index.html" class="brand-logo"><img class="circle" src="img/logo1.jpg" width="100px"></a>
+                          <div class="nav-wrapper">
+                                    <a href="#" class="right"><h5>YOUR <br> BAG</h5></a>
+                              </div>
+                      </nav>
+                  </div>
+            </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+                <div class="card">
+                  <div class="card-content">
+                    <span class="card-title">Quick Todos</span>
+                    <form id="todo-form">
+                      <div class="input-field">
+                        <input id="todo" type="text" placeholder="Add Todo...">
+                      </div>
+                    </form>
+                    <ul class="collection todos">
+                      <li class="collection-item">
+                        <div>Todo One
+                          <a href="#!" class="secondary-content delete">
+                            <i class="material-icons">close</i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="collection-item">
+                        <div>Todo Two
+                          <a href="#!" class="secondary-content delete">
+                            <i class="material-icons">close</i>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+
+
+
+    <!-- Footer -->
+    <!-- footer.page-footer.deep-purple.lighten-1>.container>.row>.col.l6.s12>h5.white-text{About Us}+p.grey-text.text-lighten-4>lorem12 -->
+    <footer class="page-footer lime darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h4 class="white-text">KRUSTY KRAB DELIVERY</h4>
+            <p class="grey-text text-lighten-4"> Great Food!, Worst Service. <br> HOTLINE: PRESS "#" DIAL 8-88-88  </p>
+          </div>
+    <!-- .col.l4.offset-l2.s12>h5.white-text{Links}+ul>li>a.grey-text.text-lighten-3{Home 1} -->
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li>
+                <a href="index.html" class="grey-text text-lighten-3">Home</a>
+              </li>
+              <li>
+                <a href="menu.html" class="grey-text text-lighten-3">Menu</a>
+              </li>
+              <li>
+                <a href="signup.html" class="grey-text text-lighten-3">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <!-- .footer-copyright.deep-purple.darken-1>.container{Quazzu &copy; 2019}+a.grey-text.lighten-4.right{Terms & Conditions} -->
+    <div class="footer-copyright  grey darken-3">
+      <div class="container">Krusty Krab &copy; 2019
+      <a href="#!" class="grey-text lighten-4 right">Terms & Conditions</a></div>
+    </div>
+    </footer>
+  
+    <!-- Login Modal -->
+    <!--  #login-modal.modal>.modal-content>h4{Account Login}+p{Login to access your account dashboard}+form>.input-field>input+label{Email}+.input-field>input+label{Password} -->
+    <div id="login-modal" class="modal">
+      <div class="modal-content">
+        <h4>Account Login</h4>
+        <p>Login to access your account dashboard</p>
+        <form>
+          <div class="input-field">
+            <input type="email" id="email">
+            <label for="email">Email</label>
+          </div>
+          <div class="input-field">
+            <input type="password" id="password">
+            <label for="password">Password</label>
+          </div>
+        </form>
+      </div>
+    <!-- modal footer -->
+    <!--.modal-footer>a.modal-action.modal-close.btn.grey>i.fa-sync -->
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn grey">
+          <i class="fa fa-sync"></i> Reset Password</a>
+        <a href="#!" class="modal-action modal-close btn purple">
+          <i class="fa fa-lock"></i> Log In</a>
+      </div>
+    </div>
+  </div>
+  
+  
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+<script src="js/chart.js"></script>
+
+<script>
+  // Hide Sections
+  $('.section').hide();
+
+  setTimeout(function () {
+    $(document).ready(function () {
+      // Show sections
+      $('.section').fadeIn();
+
+      // Hide preloader
+      $('.loader').fadeOut();
+
+      //Init Side nav
+      $('.button-collapse').sideNav();
+
+      // Init Modal
+      $('.modal').modal();
+
+      // Init Select
+      $('select').material_select();
+
+      // Counter
+      $('.count').each(function () {
+        $(this).prop('Counter', 0).animate({
+          Counter: $(this).text()
+        }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function (now) {
+              $(this).text(Math.ceil(now));
+            }
+          });
+      });
+
+      // Comments - Approve & Deny
+      $('.approve').click(function (e) {
+        Materialize.toast('Comment Approved', 3000);
+        e.preventDefault();
+      });
+      $('.deny').click(function (e) {
+        Materialize.toast('Comment Denied', 3000);
+        e.preventDefault();
+      });
+
+      // Quick Todos
+      $('#todo-form').submit(function (e) {
+        const output = `<li class="collection-item">
+              <div>${$('#todo').val()}
+                <a href="#!" class="secondary-content delete">
+                  <i class="material-icons">close</i>
+                </a>
+              </div>
+            </li>`;
+
+        $('.todos').append(output);
+
+        Materialize.toast('Todo Added', 3000);
+
+        e.preventDefault();
+      });
+
+      // Delete Todos
+      $('.todos').on('click', '.delete', function (e) {
+        $(this).parent().parent().remove();
+        Materialize.toast('Todo Removed', 3000);
+
+        e.preventDefault();
+      });
+
+      CKEDITOR.replace('body');
+
+    });
+  }, 1000);
+</script>
+</body>
+
+</html>
+
